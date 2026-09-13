@@ -30,11 +30,12 @@ def prodect():
     print("Customer name          :",customer_name)
     print()
     print()
-    print(f"{product1}      {p1} x {q1} = {(p1*q1)}")
-    print(f"{product2}      {p2} x {q2} = {(p2*q2)}")
-    print(f"{product3}      {p3} x {q3} = {(p3*q3)}")
-    print(f"{product4}      {p4} x {q4} = {(p4*q4)}")
-    print(f"{product5}      {p5} x {q5} = {(p5*q5)}")
+    print(product1," ",p1,"x",q1,"=",(p1*q1))
+    print(product2," ",p2,"x",q2,"=",(p2*q2))
+    print(product3," ",p3,"x",q3,"=",(p3*q3))
+    print(product4," ",p4,"x",q4,"=",(p4*q4))
+    print(product5," ",p5,"x",q5,"=",(p5*q5))
+    
 
 def total():
     print("--------------------------------------------------")
